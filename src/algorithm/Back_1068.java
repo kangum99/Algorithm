@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
-//다시 풀기 
+// 몇번 문제인지 보고 다시풀기
 public class Back_1068 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
