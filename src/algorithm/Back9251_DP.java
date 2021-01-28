@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 
 //https://www.acmicpc.net/problem/9251 LCS(DP)
 
+//문제 이해 잘못 다시 풀기!
+
 public class Back9251_DP {
 	
 	private static String str1, str2;
