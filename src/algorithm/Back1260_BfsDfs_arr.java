@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Back1260_BfsDfs {
+public class Back1260_BfsDfs_arr {
 	
 	private static int N, M, V;
 	private static int[][] arr;
@@ -40,6 +40,7 @@ public class Back1260_BfsDfs {
 			int num = q.poll();
 			sb.append(num+ " ");
 			for (int i = 1; i < N+1; i++) {
+//				시작 노드가 아니고, 간적 없는 노드이고, 그 노드에 간선이 존재 할 때
 				if (i != num && tf[i] == false && arr[num][i] == 1) {
 					q.add(i);
 					tf[i] = true;
