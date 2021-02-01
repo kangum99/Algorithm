@@ -19,6 +19,7 @@ public class Back1003_DP {
 		f0[1] = 0;
 		f1[0] = 0;
 		f1[1] = 1;
+		
 		for (int i = 0; i < test; i++) {
 			int N = Integer.parseInt(br.readLine());
 			for (int j = 2; j < N+1; j++) {

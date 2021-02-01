@@ -22,9 +22,12 @@ public class Back1149_DP {
 			for (int j = 0; j < 3; j++) {
 				if (i == 0) cl[i][j] = Integer.parseInt(st.nextToken());
 				else {
-					if (j == 0) cl[i][j] = Math.min(cl[i-1][j+1], cl[i-1][j+2]) + Integer.parseInt(st.nextToken()); 
-					else if (j == 1) cl[i][j] = Math.min(cl[i-1][j-1], cl[i-1][j+1]) + Integer.parseInt(st.nextToken()); 
-					else cl[i][j] = Math.min(cl[i-1][j-2], cl[i-1][j-1]) + Integer.parseInt(st.nextToken());
+					if (j == 0) 
+						cl[i][j] = Math.min(cl[i-1][j+1], cl[i-1][j+2]) + Integer.parseInt(st.nextToken()); 
+					else if (j == 1) 
+						cl[i][j] = Math.min(cl[i-1][j-1], cl[i-1][j+1]) + Integer.parseInt(st.nextToken()); 
+					else 
+						cl[i][j] = Math.min(cl[i-1][j-2], cl[i-1][j-1]) + Integer.parseInt(st.nextToken());
 				}
 			}
 			if (i == N-1) {
