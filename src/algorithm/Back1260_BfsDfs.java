@@ -95,7 +95,7 @@ public class Back1260_BfsDfs {
 //			양방향이기 때문에
 //			arr[a][b] = 1;
 //			arr[b][a] = 1;
-			list.get(a).add(b);
+			list.get(a).add(b);		
 			list.get(b).add(a);
 		}
 		
