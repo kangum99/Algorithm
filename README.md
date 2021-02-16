@@ -1,4 +1,4 @@
-# AlGORITHM
+# ALGORITHM
 
 ## 🌹사용 언어 : JAVA(대부분), PYTHON
 
