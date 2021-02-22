@@ -8,11 +8,11 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
 
-//https://www.acmicpc.net/problem/10816 - 숫자카드2 -이진탐색
+//https://www.acmicpc.net/problem/10816 - 숫자카드2 -이진탐색이지만 쉬운 해쉬맵 사용
+//해쉬맵 -> 193048KB, 1200ms
 
 public class Back10816_BinarySearch_HachMap {
 	static int N, M;
-	static int[] arr;
 //	정렬되어 만들어진 map
 	static HashMap<Integer, Integer> map;
 
@@ -22,7 +22,6 @@ public class Back10816_BinarySearch_HachMap {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
  		N = Integer.parseInt(br.readLine());
 		map = new HashMap<>(500000);
-		arr = new int[N];
 		StringTokenizer st = new StringTokenizer(br.readLine());
 //		출력값을 저장할 sb
 		
