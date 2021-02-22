@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 //https://www.acmicpc.net/problem/10816 - 숫자카드2 -이진탐색
 //https://hyunjiishailey.tistory.com/144
 //133780KB, 1760ms -> 메모리는 적지만 시간은 느림
-//메모이제이션 이용 시 보통 200000KB조금 넘고, 1000ms조금 넘는다
+//큰배열[20000001]에 모든 수의 갯수를 넣는 방법-> 보통 200000KB조금 넘고, 1000ms조금 넘는다
 
 public class Back10816_BinarySearch {
 	static int[] arr;
