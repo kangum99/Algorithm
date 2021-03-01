@@ -7,10 +7,10 @@ import java.util.StringTokenizer;
 public class OneSix {
 	static int n;
 	static int[] arr;
-	static int cut(int a, int b) {
-		if(b == 1) 
-			return arr[]
-	}
+//	static int cut(int a, int b) {
+//		if(b == 1) 
+//			return 0;
+//	}
 
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
@@ -20,7 +20,7 @@ public class OneSix {
 		for(int i = 0; i < n; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
-		cut(0, n);
+//		cut(0, n);
 	}
 
 }
