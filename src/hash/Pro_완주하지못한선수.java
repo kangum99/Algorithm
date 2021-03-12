@@ -3,6 +3,7 @@ package hash;
 import java.util.HashMap;
 
 //https://programmers.co.kr/learn/courses/30/lessons/42576?language=java
+//해쉬
 
 
 public class Pro_완주하지못한선수 {
